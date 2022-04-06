@@ -1,0 +1,47 @@
+body {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#profiles {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: start;
+}
+
+.profile {
+    position: relative;
+
+    flex-grow: 1;
+    margin: 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile > * {
+    max-width: 300px;
+}
+
+.bio {
+    display: none;
+    position: absolute;
+    text-align: center;
+}
