@@ -1,5 +1,5 @@
-# ECS162: Web Programming, SQ21
-## Discussion IV
+# ECS162: Web Programming, SQ22
+## Discussion Week 3
 
 In this discussion we cover the basics of Javascript.
 
@@ -11,4 +11,4 @@ Please uncomment only one of them at a time. The exmaples were not designed to b
 
 ### Practical Example
 There's a practical example in the ```Example``` folder.
-It extends the LotR pages from discussion I by adding some interactivity.
+It extends the LotR pages from discussion by adding some interactivity.
