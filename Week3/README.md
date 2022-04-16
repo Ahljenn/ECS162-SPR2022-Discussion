@@ -1,14 +1,14 @@
-# ECS162: Web Programming, SQ21
-## Discussion IV
+# ECS162: Web Programming, SQ22
+## Discussion Week 3
 
 In this discussion we cover the basics of Javascript.
 
 ### Theory
-You can find theoretic examples in the ```Theory``` folder.
+You can find theoretical examples in the ```Theory``` folder.
 There are 7 examples in the ```./js``` folder.
 The ```index.html``` file contains includes for all of them.
-Please uncomment only one of them at a time. The exmaples were not designed to be used simultaneously.
+Please uncomment only one include at a time. These examples were not designed to be used simultaneously.
 
 ### Practical Example
 There's a practical example in the ```Example``` folder.
-It extends the LotR pages from discussion I by adding some interactivity.
+It extends the LotR pages from discussion by adding some interactivity.
