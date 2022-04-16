@@ -10,5 +10,5 @@ The ```index.html``` file contains includes for all of them.
 Please uncomment only one include at a time. These examples were not designed to be used simultaneously.
 
 ### Practical Example
-There's a practical example in the ```Example``` folder.
-It extends the LotR pages from discussion by adding some interactivity.
+There's a practical example in the ```Repl``` folder.
+It demonstrates how a POST request works. To use this in repl.it, you can download the entire Repl folder and import what you've downloaded into a new repl.
