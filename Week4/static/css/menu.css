@@ -1,0 +1,15 @@
+#races {
+  display: flex;
+}
+
+#characters {
+  display: none;
+}
+
+#edit {
+  display: none;
+}
+
+#weather {
+  display: none;
+}
