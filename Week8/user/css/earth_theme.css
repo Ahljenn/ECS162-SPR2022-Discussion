@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bilbo&family=Montserrat:ital,wght@0,100;0,400;0,700;1,800&display=swap');
+
+* {
+    font-family: 'Bilbo', cursive;
+    color: rgb(69, 104, 60);
+}
+
+body {
+    background-color: rgb(154, 185, 146);
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    padding: 5px 15px;
+    margin: 10px;
+    color: rgb(91, 133, 80);
+    border: 1px solid rgb(91, 133, 80);
+    border-radius: 5px;
+}
+
+li.selected {
+    color: rgb(154, 185, 146);
+    background-color: rgb(91, 133, 80);
+}
+
+a {
+    color: rgb(117, 148, 110);
+}
+
+a:visited {
+    color: rgb(91, 133, 80);
+}
+
+input {
+  font-family: sans-serif;
+}
+
+.portrait {
+    width: 200px;
+    height: 200px;
+    border: 10px solid rgb(91, 133, 80);
+    border-radius: 110px;
+}
+
+.backdrop {
+    filter: blur(50px);
+    opacity: 0.35;
+    transition: all 0.2s;
+}
+
+#details {
+    padding: 20px;
+}
+
+#details > div {
+    margin-bottom: 50px;
+}
+
+#character-search {
+    padding: 20px;
+}
+
+#characters-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 50%;
+}
+
+#characters-list > *{
+  font-family: sans-serif !important;
+  padding: 10px;
+  flex-grow: 1;
+}
+
+#edit-status {
+  font-family: sans-serif !important;
+  color: green;
+  opacity: 0;
+  min-height: 50px;
+  transition: all 0.2s;
+}
+
+#summary-title {
+  font-size: 40px;
+}
+
+#summary-text {
+  font-size: 24px;
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Peoples of Middle-Earth</title>
+    <link rel="stylesheet" type="text/css" href="css/earth_theme.css">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+</head>
+
+<body>
+    <div id="summary">
+        <h1 id="profile-welcome"></h1>
+        <h1 id="summary-title">The Free Peoples of Middle-Earth</h1>
+        <p id ="summary-text">
+            The Free Peoples of the World were those people who were not under Sauron's domination. By the later Third
+            Age Sauron had Orcs, Trolls and other creatures under his control, and other peoples like the Men of
+            Darkness enslaved or allied with him. As such, the Free Peoples were: Dwarves, Elves, Ents, Hobbits, and Men.
+        </p>
+        <ul id="menu">
+            <li id="menu-races" class="selected">Races</li>
+            <li id="menu-characters">Characters</li>
+            <li id="menu-edit">Edit</li>
+            <li id="menu-weather">Weather</li>
+            <li id="menu-plans">Plans</li>
+        </ul>
+    </div>
+    <div id="details">
+      <div id="races">
+        <h2>Details about the Races</h2>
+        <div id="profiles">
+            <div class="profile">
+                <img class="portrait" src="img/dwarves.png">
+                <div class="bio">
+                    <h3>Dwarves</h3>
+                    <span>Dwarves were a race of Middle-earth also known as the Khazad (in their own tongue) or Casari,
+                        Naugrim, meaning 'Stunted People', and Gonnhirrim, the 'Masters of Stone'.</span>
+                    <a href="https://lotr.fandom.com/wiki/Dwarves"><span>More...</span></a>
+                </div>
+            </div>
+            <div class="profile">
+                <img class="portrait" src="img/elves.png">
+                <div class="bio">
+                    <h3>Elves</h3>
+                    <span>The Elves, who called themselves the Quendi, and who in lore are commonly referred to as the
+                        Eldar (adj. Eldarin), were the first and eldest of the Children of Ilúvatar, and are considered
+                        to be the fairest and wisest of any race of Arda given sapience.</span>
+                    <a href="https://lotr.fandom.com/wiki/Elves"><span>More...</span></a>
+                </div>
+            </div>
+            <div class="profile">
+                <img class="portrait" src="img/ents.png">
+                <div class="bio">
+                    <h3>Ents</h3>
+                    <span>Ents, also known as Onodrim (Tree-host) by the Elves, were a very old race of Middle-earth.
+                        They were apparently created at the behest of Yavanna after she learned of Aulë's children, the
+                        dwarves, knowing that they would want to fell trees.</span>
+                    <a href="https://lotr.fandom.com/wiki/Ents"><span>More...</span></a>
+                </div>
+            </div>
+            <div class="profile">
+                <img class="portrait" src="img/hobbits.png">
+                <div class="bio">
+                    <h3>Hobbits</h3>
+                    <span>Hobbits, also known as Halflings, were an ancient mortal race that lived in Middle-earth.
+                        Although their exact origins are unknown, they were initially found in the northern regions of
+                        Middle-earth and below the Vales of Anduin.</span>
+                    <a href="https://lotr.fandom.com/wiki/Hobbits"><span>More...</span></a>
+                </div>
+            </div>
+            <div class="profile">
+                <img class="portrait" src="img/men.png">
+                <div class="bio">
+                    <h3>Men</h3>
+                    <span>Men (initially named Atani) were one of several races inhabiting Arda. They are the humans of
+                        Middle-earth, and the second of the Children of Ilúvatar.</span>
+                    <a href="https://lotr.fandom.com/wiki/Men"><span>More...</span></a>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div id="characters">
+        <h2>Guess the Characters</h2>
+
+        <div id="characters-list">
+        </div>
+
+        <br><br>
+        <input type="text" id="characters-name" placeholder="Enter a LOTR character name here..." size="40">
+        <input type="button" id="characters-guess-button" value="Guess">
+      </div>
+      <div id="edit">
+        <h2>Edit Character Entries</h2>
+        <div id="edit-status">
+        </div>
+        <input type="text" id="edit-name" placeholder="Enter a LOTR character name here..." size="40">
+        <input type="button" id="edit-add-button" value="Send"><br>
+        <input type="button" id="edit-reset-button" value="Reset DB">
+    </div>
+      <div id="weather">
+        <h2>Air Quality of Middle-Earth</h2>
+        <input type="button" id="erebor-weather-button" value="Erebor"><br>
+        <span id="erebor-summary"></span><br>
+        <input type="button" id="gondor-weather-button" value="Gondor"><br>
+        <span id="gondor-summary"></span><br>
+        <input type="button" id="isengard-weather-button" value="Isengard"><br>
+        <span id="isengard-summary"></span><br>
+        <input type="button" id="shire-weather-button" value="Shire"><br>
+        <span id="shire-summary"></span><br>
+        <input type="button" id="mordor-weather-button" value="Mordor"><br>
+        <span id="mordor-summary"></span><br>
+      </div>
+      <div id="plans">
+        <h2>Plans to Destroy the Ring</h2>
+        <input type="button" id="plans-button" value="Send plans"><br>
+      </div>
+    <script src="js/api.js"></script>
+    <script src="js/bio.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/characters.js"></script>
+    <script src="js/edit.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/plans.js"></script>
+</body>
+
+</html>
